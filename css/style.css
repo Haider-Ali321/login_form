@@ -1,0 +1,72 @@
+.can{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+    background-image: linear-gradient( #640540,#61045f);
+}
+.can h3{
+	color: white;
+	padding-top: 20px;
+}
+.one{
+	text-align: center;
+	background-color:transparent;
+	height: 350px;
+	width: 250px;
+	border: 5px rgba(16, 252, 16, 0.274);
+	box-shadow: 5px 5px 5px 5px black;
+	padding-top: 20px;
+
+}
+.can form input{
+	background-color: transparent;
+	margin-top: 20px;
+	border-color: rgb(181, 214, 181);
+	box-shadow: 5px 5px black;
+	/* box-sizing: 10px; */
+	/* width: 50%; */
+	/* border: 8px solid green; */
+}
+.btn{
+	background-color: transparent;
+	border-radius: 40px;
+	box-shadow: 3px 3px 3px 3px black;
+	color: rgb(183, 196, 183);
+	width: 70px;
+	margin-top: 30px;
+	border-color: rgb(192, 211, 192);
+}
+.btn:hover{
+	color: white;
+	background-color: black;
+}
+.h5 a{
+	margin-top: 20px;
+	text-decoration-line: none;
+	color: rgb(197, 216, 197);
+}
+.h5{
+	margin-top: 20px;
+	border-color: 8px solid rgb(175, 201, 175);
+}
+.one input:placeholder{
+	color: white;
+}
+.zero{
+	border-left: none;
+	margin-right: 40%;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	outline: none;
+}
+.zero2{
+	border-right: none;
+	margin-left: 28%;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	outline: none;
+
+}
